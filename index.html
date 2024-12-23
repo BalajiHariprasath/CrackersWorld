@@ -27,5 +27,13 @@
         <button id="checkout-button">Checkout</button>
     </div>
     <script src="scripts.js"></script>
+    <script>
+        document.getElementById('checkout-button').addEventListener('click', function() {
+            // Simulate order processing and Excel generation
+            setTimeout(function() {
+                alert('Order successful! Your Excel file has been generated.');
+            }, 1000); // Simulate delay
+        });
+    </script>
 </body>
 </html>
